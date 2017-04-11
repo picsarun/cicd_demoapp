@@ -8,3 +8,10 @@ build:
         commands:
             - pip install -r requirements.txt
             - python testing.py
+publish:
+    docker:
+        repo: $$picsarun/cicd_demoapp
+        tag: latest
+        username: $$picsarun
+        password: $$Y41c00dh8X
+        email: $$pic.sarun@gmail.com
